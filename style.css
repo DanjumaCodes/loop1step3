@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 128, 107);
+}
+main {
+    height: 20rem;
+    width: 25rem;
+    background-color: white;
+    margin: 0 auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; 
+    height: 300px; 
+    overflow: hidden;
+    
+
+}   
+.firstletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+.secondletter {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: x-small;
+    padding-top: 2%;
+    padding-left: 12%;
+}
+.maintext1 {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+.maintext2 {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.maintext3 {
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.bicycle img{
+      width: 400px; 
+      height: 400%;
+      display: block;
+      margin-top: -60px;
+      overflow: hidden;
+      display: block;
+}
+.name img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.name {
+    width: 2rem;
+    height: 2rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
